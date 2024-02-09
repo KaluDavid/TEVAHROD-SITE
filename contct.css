@@ -1,0 +1,41 @@
+main {
+    padding: 15% 10% 20% 10%;
+}
+
+.offer_content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.offer_content div {
+    height: 45vh;
+    padding: 30px 30px 20px 30px;
+    gap: 20px;
+
+}
+
+.offer_content div li {
+    font-weight: 500;
+    list-style: none;
+    text-align: left;
+    line-height: 25px;
+}
+
+
+#mail1 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.mail {
+    white-space: wrap;
+}
+
+#mail {
+    font-size: 34px;
+    color: #0091dc;
+    text-align: center;
+}

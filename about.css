@@ -1,0 +1,29 @@
+/* Main */
+main {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.hero-section {
+    background-image: url('contents/brushes.jpg');
+}
+
+.hero-section div {
+    align-items: flex-end;
+    padding-top: 15%;
+    text-align: right;
+}
+
+/* history */
+.history {
+    top: 20rem;
+    z-index: 3;
+    left: 0;
+}
+
+/* about */
+.about {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}

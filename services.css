@@ -1,0 +1,6 @@
+.hero-section {
+    background-image: url('contents/services.jpg');
+    background-position: center;
+    height: 70vh;
+    z-index: 2;
+}
