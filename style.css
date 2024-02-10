@@ -1215,6 +1215,14 @@ footer a {
     }
 
 
+    .offer_content{
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 24px;
+    }
+
+    .offer_content div{
+        scroll-snap-align: start;
+    }
 }
 
 /* screen 321 */
