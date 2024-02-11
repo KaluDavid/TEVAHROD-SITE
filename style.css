@@ -461,7 +461,6 @@ main {
 /* arrow */
 
 .arrow {
-    font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
     color: #0091dc;
@@ -509,12 +508,6 @@ footer ol {
     gap: 20%;
     margin: 0 8% 0% 10%;
 }
-
-/* Teva */
-/* .teva {
-    width: 40%;
-    line-height: 30px;
-} */
 
 
 /* Quick links */
@@ -991,6 +984,7 @@ footer a {
     /* footer */
     footer {
         padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     .footer_div {
@@ -1158,7 +1152,7 @@ footer a {
     }
 
 
-    
+
 
 }
 
