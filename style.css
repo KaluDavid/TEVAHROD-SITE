@@ -449,6 +449,7 @@ main {
     z-index: 2;
     right: 2%;
     top: 30rem;
+    font-size: 100;
     cursor: pointer;
     text-decoration: none;
 }
