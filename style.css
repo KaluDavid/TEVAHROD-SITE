@@ -331,28 +331,8 @@ main {
     border-radius: 0px 30px;
     width: 27rem;
     object-fit: cover;
-    position: relative;
 }
 
-.vid {
-    color: white;
-    font-size: 20px;
-    background-color: #0091dc;
-    text-align: center;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    padding-top: 30px;
-    position: absolute;
-    left: 20%;
-    top: 170rem;
-    cursor: pointer;
-    display: none;
-}
-
-.video-container:hover .vid {
-    display: block;
-}
 
 .we {
     text-align: left;
@@ -395,7 +375,7 @@ main {
     background-color: #0091dc;
     text-align: center;
     height: 3rem;
-    width: 3.5rem;
+    width: 3rem;
     border-radius: 50%;
     padding-top: 15px;
 }
@@ -732,16 +712,7 @@ footer a {
     .video-container video {
         object-fit: cover;
         width: 100%;
-        border-radius: 50px 0px;
-    }
 
-    .vid {
-        top: 200rem;
-        left: 50%;
-        height: 7rem;
-        width: 7rem;
-        padding-top: 40px;
-        font-size: 35px;
     }
 }
 
@@ -760,16 +731,6 @@ footer a {
 
 }
 
-/* screen 820px */
-@media screen and (max-width:820px) {
-
-    .vid {
-        top: 195rem;
-    }
-
-}
-
-
 /* screen 800px */
 @media screen and (max-width:800px) {
 
@@ -777,12 +738,6 @@ footer a {
     .hero-section div {
         padding-top: 38%;
     }
-
-    .vid {
-        top: 208rem;
-        left: 48%;
-    }
-
     .us {
         flex-direction: column;
         gap: 66px;
@@ -910,10 +865,6 @@ footer a {
         border-top-right-radius: 0%;
     }
 
-    .vid {
-        top: 195rem;
-        left: 46%;
-    }
 }
 
 
@@ -1158,15 +1109,6 @@ footer a {
 
 
     /* why choose us */
-
-    .vid {
-        top: 160rem;
-        height: 5rem;
-        width: 5rem;
-        padding-top: 30px;
-        font-size: 20px;
-    }
-
     .us {
 
         padding: 60px 30px;
@@ -1195,9 +1137,6 @@ footer a {
         top: 53rem;
     }
 
-    .vid {
-        top: 150rem;
-    }
 }
 
 
@@ -1236,10 +1175,6 @@ footer a {
         margin: 10% 0% 118% 0%;
     }
 
-    .vid {
-        top: 152rem;
-        left: 40%;
-    }
 
     footer {
         line-height: 30px;
@@ -1266,10 +1201,7 @@ footer a {
         margin: 10% 0% 137% 0%;
     }
 
-    .vid {
-        top: 158rem;
 
-    }
 }
 
 
@@ -1318,10 +1250,6 @@ footer a {
     }
 
 
-    .vid {
-        top: 135rem;
-
-    }
 
 
 }
