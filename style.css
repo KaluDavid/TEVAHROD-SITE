@@ -395,13 +395,13 @@ main {
     background-color: #0091dc;
     text-align: center;
     height: 3rem;
-    width: 3rem;
+    width: 3.5rem;
     border-radius: 50%;
     padding-top: 15px;
 }
 
 #fa {
-    width: 3.5rem;
+    /* width: 3.5rem; */
 }
 
 .experience h4 {
@@ -692,6 +692,13 @@ footer a {
 /* screen 884 */
 @media screen and (max-width:884px) {
 
+    /* header */
+    .hero-section div {
+        padding-top: 30%;
+    }
+
+
+
     /* about */
     .about {
 
@@ -711,21 +718,36 @@ footer a {
     }
 
 
-    .hero-section div {
-        padding-top: 30%;
-    }
-}
 
-/* screen 861 */
-@media screen and (max-width:861px) {
-    .hero-section div {
-        padding-top: 15%;
+
+    /* Why choose us */
+    .us {
+        flex-direction: column;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+    .video-container video {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 50px 0px;
+    }
+
+    .vid {
+        top: 200rem;
+        left: 50%;
+        height: 7rem;
+        width: 7rem;
+        padding-top: 40px;
+        font-size: 35px;
     }
 }
 
 
 /* screen 835 */
-@media screen and (max-width:835px) {
+@media screen and (max-width:834px) {
     header {
         gap: 15%;
 
@@ -733,6 +755,38 @@ footer a {
 
     nav .navMenu ol {
         gap: 25%;
+    }
+
+
+}
+
+/* screen 820px */
+@media screen and (max-width:820px) {
+
+    .vid {
+        top: 195rem;
+    }
+
+}
+
+
+/* screen 800px */
+@media screen and (max-width:800px) {
+
+    /* header */
+    .hero-section div {
+        padding-top: 38%;
+    }
+
+    .vid {
+        top: 208rem;
+        left: 48%;
+    }
+
+    .us {
+        flex-direction: column;
+        gap: 66px;
+
     }
 }
 
@@ -743,9 +797,6 @@ footer a {
 
     }
 
-    /* nav .navMenu ol {
-        gap: 20%;
-    } */
 }
 
 
@@ -858,6 +909,11 @@ footer a {
 
         border-top-right-radius: 0%;
     }
+
+    .vid {
+        top: 195rem;
+        left: 46%;
+    }
 }
 
 
@@ -877,9 +933,15 @@ footer a {
     }
 
     .about_us h3 {
-
         font-size: 30px;
+    }
 
+    .we h3 {
+        font-size: 30px;
+    }
+
+    .we h3 br {
+        display: none;
     }
 }
 
@@ -1087,11 +1149,27 @@ footer a {
     }
 
     footer {
-        padding: 60px 40px;
+        padding: 60px 30px;
     }
 
     .hero-section br {
         display: none;
+    }
+
+
+    /* why choose us */
+
+    .vid {
+        top: 160rem;
+        height: 5rem;
+        width: 5rem;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .us {
+
+        padding: 60px 30px;
     }
 }
 
@@ -1115,6 +1193,10 @@ footer a {
 
     .about_us {
         top: 53rem;
+    }
+
+    .vid {
+        top: 150rem;
     }
 }
 
@@ -1154,16 +1236,24 @@ footer a {
         margin: 10% 0% 118% 0%;
     }
 
+    .vid {
+        top: 152rem;
+        left: 40%;
+    }
 
     footer {
         line-height: 30px;
     }
 
+
+    .us {
+        gap: 30px;
+    }
 }
 
 
 
-/* sccreen 364 */
+/* sccreen 360 */
 @media screen and (max-width:360px) {
 
     /* logo */
@@ -1174,6 +1264,11 @@ footer a {
 
     .about {
         margin: 10% 0% 137% 0%;
+    }
+
+    .vid {
+        top: 158rem;
+
     }
 }
 
@@ -1220,6 +1315,12 @@ footer a {
     .about_us {
         top: 37rem;
         padding: 30px;
+    }
+
+
+    .vid {
+        top: 135rem;
+
     }
 
 
