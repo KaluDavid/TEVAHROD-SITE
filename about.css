@@ -6,7 +6,7 @@ main {
 }
 
 .hero-section {
-    background-image: url('contents/brushes.jpg');
+    background-image: url('contents/hero.jpg');
 }
 
 .hero-section h1 {
@@ -27,4 +27,3 @@ main {
     margin-top: 15%;
     margin-bottom: 10%;
 }
-
