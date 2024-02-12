@@ -1095,6 +1095,30 @@ footer a {
     }
 }
 
+
+/* screen 390px */
+@media screen and (max-width:390px) {
+    .hero-section h1 {
+
+        line-height: 60px;
+    }
+
+
+    .hero-section div {
+        padding-top: 43%;
+        gap: 10%;
+    }
+
+    .about {
+        margin: 10% 0% 95% 0%;
+    }
+
+    .about_us {
+        top: 53rem;
+    }
+}
+
+
 /* screen 375 */
 @media screen and (max-width:375px) {
 
