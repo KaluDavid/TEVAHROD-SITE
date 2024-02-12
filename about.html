@@ -1,37 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TEVAHROD</title>
-   <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-  </head>
 
-  <body>
-    <!-- header -->
-    <header>
-      <!-- logo -->
-      <img src="contents/logo-removebg-preview.png" alt="" class="logo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEVAHROD</title>
+  <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-      <!-- nav -->
-      <nav>
-        <div class="navMenu">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- logo -->
+    <img src="contents/logo-removebg-preview.png" alt="" class="logo">
+
+    <!-- nav -->
+    <nav>
+      <div class="navMenu">
+        <ol>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="">
+            <li class="nav">About</li>
+          </a>
+          <a href="services.html">
+            <li>Services</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ol>
+      </div>
+
+      <div class="span" onclick="hamburgerMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="off-screen-menu" id="visible">
+    <ol>
+      <a href="index.html">
+        <li>Home</li>
+      </a>
+      <a href="about.html">
+        <li class="nav">About</li>
+      </a>
+      <a href="services.html">
+        <li>Services</li>
+      </a>
+      <a href="contact.html">
+        <li>Contact</li>
+      </a>
+    </ol>
+  </section>
+
+  <!-- main -->
+  <main>
+    <div class="hero-section">
+      <div>
+        <h1>
+          LEARN MORE <strong>ABOUT</strong> US
+        </h1>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- history -->
+
+    <div class="about_us history">
+      <h2> History</h2>
+      <p>
+        TEVAHROD Wall Cosmetic Limited is one of Nigeria’s fastest-growing paint producing industry which has
+        been
+        known for producing high-quality paint since 2021
+        The word TEVAHROD is derived from the words “Nature and strength”. In Oct 2023, Tevahrod launched the
+        “It’s
+        all about paint” a marketing campaign featuring Decorative paintings.
+      </p>
+
+    </div>
+
+    <a href="#" class="straight">
+
+      <p class="arrow">
+        ↑
+      </p>
+    </a>
+
+
+    <!-- about_us -->
+    <div class="about">
+
+      <div class="img">
+        <img src="contents/cover_photo.jpg" alt="">
+      </div>
+      <div class="about_us">
+        <h2>About Us</h2>
+        <h3>
+          Choose Brilliance, Choose <strong> TEVAHROD </strong>
+        </h3>
+
+        <p>We are a creative and innovative company aimed at maintaining standards with verifiable product
+          performance,that is acceptable and recognized. Let your walls sparkle with TEVAHROD Paint, the
+          durable waterproof paint with dirty resistance…</p>
+
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+  <!-- footer -->
+  <footer>
+
+    <div class="align">
+
+      <!-- teva -->
+      <div class="teva">
+        <p>
+          TEVAHROD is a creative and innovative company aimed at maintaining standards with verifiable product
+          performance, that is acceptable and recognized
+        </p>
+      </div>
+
+      <!-- quick links -->
+      <div class="quick link">
+        <h3>Quick Links</h3>
+        <div>
           <ol>
             <a href="index.html">
               <li>Home</li>
             </a>
             <a href="">
-              <li class="nav">About</li>
+              <li>About</li>
             </a>
             <a href="services.html">
               <li>Services</li>
@@ -39,152 +152,35 @@
             <a href="contact.html">
               <li>Contact</li>
             </a>
+
           </ol>
         </div>
+      </div>
 
-        <div class="span" onclick="hamburgerMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-    </header>
+      <!-- our office -->
+      <div class="quick office">
+        <h3>Our Office</h3>
+        <ol>
+          <div>
+            <i class="fa fa-map-marker" id="office1"></i>
+            <li>Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp Tran-ekulu, Enugu State.</li>
+          </div>
+          <div>
+            <i class="fa fa-phone" id="office1"></i>
+            <li>
+              +2348100401361
+            </li>
+          </div>
+          <div>
+            <i class="fa fa-envelope" id="office"></i>
+            <a href="mailto:tevahrodwallcosmetic@gmail.com">tevahrodwallcosmetic@gmail.com</a>
+          </div>
 
-    <section class="off-screen-menu" id="visible">
-      <ol>
-        <a href="index.html">
-          <li >Home</li>
-        </a>
-        <a href="about.html">
-          <li class="nav">About</li>
-        </a>
-        <a href="services.html">
-          <li>Services</li>
-        </a>
-        <a href="contact.html">
-          <li>Contact</li>
-        </a>
-      </ol>
-    </section>
-
-    <!-- main -->
-    <main>
-        <div class="hero-section">
-            <div>
-                <h1>
-                    LEARN MORE <strong>ABOUT</strong> US
-                </h1>
-                </a>
-            </div>
-        </div>
-
-
-        <!-- history -->
-
-        <div class="about_us history">
-            <h2> History</h2>
-            <p>
-                TEVAHROD Wall Cosmetic Limited is one of Nigeria’s fastest-growing paint producing industry which has
-                been
-                known for producing high-quality paint since 2021
-                The word TEVAHROD is derived from the words “Nature and strength”. In Oct 2023, Tevahrod launched the
-                “It’s
-                all about paint” a marketing campaign featuring Decorative paintings.
-            </p>
-
-        </div>
-
-        <a href="#" class="straight">
-
-            <p class="arrow">
-                ↑
-            </p>
-        </a>
-
-
-        <!-- about_us -->
-        <div class="about">
-
-            <div class="img">
-                <img src="contents/cover_photo.jpg" alt="">
-            </div>
-            <div class="about_us">
-                <h2>About Us</h2>
-                <h3>
-                    Choose Brilliance, Choose <strong> TEVAHROD </strong>
-                </h3>
-
-                <p>We are a creative and innovative company aimed at maintaining standards with verifiable product
-                    performance,that is acceptable and recognized. Let your walls sparkle with TEVAHROD Paint, the
-                    durable waterproof paint with dirty resistance…</p>
-
-            </div>
-        </div>
-    </main>
-
-
-
-
-
-    <!-- footer -->
-    <footer>
-
-        <div class="align">
-
-            <!-- teva -->
-            <div class="teva">
-                <p>
-                    TEVAHROD is a creative and innovative company aimed at maintaining standards with verifiable product
-                    performance, that is acceptable and recognized
-                </p>
-            </div>
-
-            <!-- quick links -->
-            <div class="quick link">
-                <h3>Quick Links</h3>
-                <div>
-                    <ol>
-                        <a href="index.html">
-                            <li>Home</li>
-                        </a>
-                        <a href="">
-                            <li>About</li>
-                        </a>
-                        <a href="services.html">
-                            <li>Services</li>
-                        </a>
-                        <a href="contact.html">
-                            <li>Contact</li>
-                        </a>
-
-                    </ol>
-                </div>
-            </div>
-
-            <!-- our office -->
-            <div class="quick office">
-                <h3>Our Office</h3>
-                <ol>
-                    <div>
-                        <i class="fa fa-map-marker" id="office1"></i>
-                        <li>Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp Tran-ekulu, Enugu State.</li>
-                    </div>
-                    <div>
-                        <i class="fa fa-phone" id="office1"></i>
-                        <li>
-                            +2348100401361
-                        </li>
-                    </div>
-                    <div>
-                        <i class="fa fa-envelope" id="office"></i>
-                        <a href="mailto:tevahrodwallcosmetic@gmail.com">tevahrodwallcosmetic@gmail.com</a>
-                    </div>
-
-                </ol>
-            </div>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+        </ol>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
