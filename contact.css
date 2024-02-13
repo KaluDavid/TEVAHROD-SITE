@@ -190,6 +190,15 @@ main {
     }
 }
 
+/* screen 360 */
+@media screen and (max-width:360px) {
+
+
+    .offer_content div {
+        height: 37vh;
+    }
+}
+
 /* screen 320 */
 @media screen and (max-width:320px) {
 
