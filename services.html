@@ -1,70 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEVAHROD</title>
-   <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="services.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- header -->
     <header>
-      <!-- logo -->
-      <img src="contents/logo-removebg-preview.png" alt="" class="logo">
+        <!-- logo -->
+        <img src="contents/logo-removebg-preview.png" alt="" class="logo">
 
-      <!-- nav -->
-      <nav>
-        <div class="navMenu">
-          <ol>
-            <a href="index.html">
-              <li>Home</li>
-            </a>
-            <a href="about.html">
-              <li>About</li>
-            </a>
-            <a href="">
-              <li class="nav">Services</li>
-            </a>
-            <a href="contact.html">
-              <li>Contact</li>
-            </a>
-          </ol>
-        </div>
+        <!-- nav -->
+        <nav>
+            <div class="navMenu">
+                <ol>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="">
+                        <li class="nav">Services</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ol>
+            </div>
 
-        <div class="span" onclick="hamburgerMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
+            <div class="span" onclick="hamburgerMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
     </header>
 
     <section class="off-screen-menu" id="visible">
-      <ol>
-        <a href="index.html">
-          <li>Home</li>
-        </a>
-        <a href="about.html">
-          <li>About</li>
-        </a>
-        <a href="">
-          <li class="nav">Services</li>
-        </a>
-        <a href="contact.html">
-          <li>Contact</li>
-        </a>
-      </ol>
+        <ol>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li class="nav">Services</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ol>
     </section>
 
     <!-- Main -->
@@ -90,75 +85,68 @@
         </a>
 
 
+
         <!-- Why chose us -->
         <div class="why us">
             <!-- videos and Images -->
             <div class="video-container">
-                <video id="siteVideo">
-                    <source src="contents/coverVideo.mp4" type="video/mp4">
+                <video controls loop muted autoplay>
+                    <source src="contents/coverVideo.mp4" type="video/mp4" />
                     Your browser does not support the video tag
                 </video>
-                <i class="fa fa-play vid" onclick="playVid()"></i>
             </div>
+
+
+
             <!-- content -->
             <div>
                 <div class="we offer">
                     <h2>Why Choose Us</h2>
                     <h3>
-                        Few Reasons Why <br> People Choosing Us!
+                        Few Reasons Why <br />
+                        People Choosing Us!
                     </h3>
                     <p>
-                        At TEVAHROD, we're your preferred painting partner for these compelling reasons: commitment to
-                        excellence, dedication to innovation, and passion for creating transformative spaces. Our
+                        At TEVAHROD, we're your preferred painting partner for these
+                        compelling reasons: commitment to excellence, dedication to
+                        innovation, and passion for creating transformative spaces. Our
                         clients choose TEVAHROD confidently for these key reasons.
                     </p>
                     <div class="serve">
                         <div class="experience">
-                            <i class="fa fa-check"></i>
+                            <i class="fa fa-check" id="fa"></i>
                             <div>
-                                <h4>
-                                    Experienced Workers
-                                </h4>
+                                <h4>Experienced Workers</h4>
                                 <ul>
-                                    <li> We have well-trained painters for good finishings.</li>
+                                    <li>We have well-trained painters for good finishings.</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="experience">
-                            <i class="fa fa-check"></i>
+                            <i class="fa fa-check" id="fa"></i>
                             <div>
-                                <h4>
-                                    Reliable Painting Services
-                                </h4>
+                                <h4>Reliable Painting Services</h4>
                                 <ul>
-                                    <li>
-                                        We can handle all interior and exterior decoration.
-                                    </li>
+                                    <li>We can handle all interior and exterior decoration.</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="experience">
-                            <i class="fa fa-check"></i>
+                            <i class="fa fa-check" id="fa"></i>
                             <div>
-                                <h4>
-                                    24/7 Customer Support
-                                </h4>
+                                <h4>24/7 Customer Support</h4>
                                 <ul>
                                     <li>
-                                        Experience peace of mind with our 24/7 customer support, always here to assist
-                                        you.
+                                        Experience peace of mind with our 24/7 customer support,
+                                        always here to assist you.
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
-
 
 
 
