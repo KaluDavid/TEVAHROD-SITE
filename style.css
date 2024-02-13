@@ -1203,6 +1203,11 @@ footer a {
 /* sccreen 360 */
 @media screen and (max-width:360px) {
 
+    header {
+        padding-top: 25px;
+
+    }
+
     /* logo */
     header .logo {
         width: 40%;
