@@ -201,8 +201,9 @@ main {
         height: 37vh;
     }
 }
-/* screen 350 */
-@media screen and (max-width:350px) {
+
+/* screen 365 */
+@media screen and (max-width:365px) {
 
     main {
         padding: 45% 7% 30% 7%;

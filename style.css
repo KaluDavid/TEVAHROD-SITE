@@ -643,12 +643,12 @@ footer a {
 @media screen and (max-width:926px) {
     .align {
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
     }
 
     .footer_div {
         margin: 0;
-        gap: 10%;
+        gap: 3rem;
     }
 }
 
@@ -1017,7 +1017,6 @@ footer a {
 
     .footer_div {
         flex-direction: column;
-        gap: 5rem;
     }
 
 }
