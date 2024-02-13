@@ -198,7 +198,7 @@ main {
     }
 
     .offer_content div {
-        height: 37vh;
+        height: 30vh;
     }
 }
 
@@ -210,7 +210,10 @@ main {
     }
 
     .offer_content div {
-        height: 43vh;
+     
+            padding-top: 44px;
+    
+        height: 45vh;
     }
 }
 
