@@ -154,3 +154,49 @@ main {
     }
 
 }
+
+/* screen 414 */
+@media screen and (max-width:414px) {
+
+    .offer_content div {
+        padding-top: 50px;
+    }
+
+}
+
+/* screen 390 */
+@media screen and (max-width:390px) {
+
+    .offer_content div {
+        padding-top: 40px;
+    }
+
+}
+
+/* screen 375 */
+@media screen and (max-width:375px) {
+
+    .offer_content div {
+        padding-top: 40px;
+    }
+
+    .offer_content div {
+        height: 44vh;
+    }
+}
+
+/* screen 320 */
+@media screen and (max-width:375px) {
+
+    .offer_content div {
+        padding-top: 35px;
+    }
+
+    .offer_content div {
+        height: 60vh;
+    }
+
+    .message button {
+        padding: 10px;
+    }
+}
