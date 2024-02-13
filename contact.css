@@ -16,7 +16,18 @@ main {
     width: 30%;
     padding: 30px;
     gap: 20px;
+    text-align: center;
+    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    transition: transform 0.8s ease-in-out;
+}
 
+.offer_content div:hover {
+    transform: scale(1.09);
+    opacity: 1;
 }
 
 .offer_content div li {
@@ -46,8 +57,18 @@ main {
     text-align: center;
 }
 
+.offer_content div p {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Roboto;
+}
 
-/* media querry */
+
+
+
+
+
+/* media query */
 /* screen 1280px */
 @media screen and (max-width:1280px) {
 
@@ -210,9 +231,9 @@ main {
     }
 
     .offer_content div {
-     
-            padding-top: 44px;
-    
+
+        padding-top: 44px;
+
         height: 45vh;
     }
 }
