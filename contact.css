@@ -201,6 +201,17 @@ main {
         height: 37vh;
     }
 }
+/* screen 350 */
+@media screen and (max-width:350px) {
+
+    main {
+        padding: 45% 7% 30% 7%;
+    }
+
+    .offer_content div {
+        height: 43vh;
+    }
+}
 
 /* screen 320 */
 @media screen and (max-width:320px) {
