@@ -123,6 +123,7 @@ main {
 
 .hero-section .learn_more button {
     padding: 20px 70px;
+    border-radius: 20px 5px;
     font-size: 20px;
     box-shadow: #1572E0 2px 2px 2px 2px;
 }
