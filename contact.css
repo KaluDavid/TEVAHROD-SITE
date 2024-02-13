@@ -193,9 +193,12 @@ main {
 /* screen 360 */
 @media screen and (max-width:360px) {
 
+    main {
+        padding: 45% 7% 30% 7%;
+    }
 
     .offer_content div {
-        height: 37vh;
+        height: 33vh;
     }
 }
 
