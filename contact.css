@@ -149,7 +149,7 @@ main {
 @media screen and (max-width:428px) {
 
     .offer_content div {
-        height: 40vh;
+        height: 35vh;
         width: 100%;
     }
 
@@ -161,6 +161,11 @@ main {
     .offer_content div {
         padding-top: 50px;
     }
+
+    .offer_content div {
+        height: 40vh;
+    }
+
 
 }
 
@@ -186,7 +191,7 @@ main {
 }
 
 /* screen 320 */
-@media screen and (max-width:375px) {
+@media screen and (max-width:320px) {
 
     .offer_content div {
         padding-top: 35px;
