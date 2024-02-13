@@ -78,6 +78,21 @@ main {
 
 }
 
+/* screen 1131 */
+@media screen and (max-width:1131px) {
+    .offer_content div {
+        height: 65vh;
+    }
+}
+
+/* screen 1114 */
+@media screen and (max-width:1114px) {
+    .offer_content div {
+        height: 57vh;
+    }
+}
+
+
 /* screen 1024px */
 @media screen and (max-width:1024px) {
 

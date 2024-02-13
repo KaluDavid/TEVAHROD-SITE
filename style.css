@@ -280,7 +280,7 @@ main {
     width: 20rem;
     text-align: center;
     padding-top: 50px;
-    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
+    box-shadow: rgb(243, 235, 235) 0px 0px 10px 2px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -292,6 +292,7 @@ main {
 .home_offer_content div:hover {
     transform: scale(1.09);
     opacity: 1;
+    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
 }
 
 .fa {
@@ -589,7 +590,7 @@ footer a {
 
     .home_offer_content div {
         width: 17rem;
-
+        height: 45vh;
 
     }
 }
@@ -625,8 +626,9 @@ footer a {
     .home_offer_content div {
         width: 15rem;
 
-
     }
+
+
 }
 
 
@@ -667,6 +669,9 @@ footer a {
     }
 
 
+    .hero-section div {
+        padding-top: 15%;
+    }
 
 }
 
@@ -722,7 +727,7 @@ footer a {
 }
 
 
-/* screen 835 */
+/* screen 834 */
 @media screen and (max-width:834px) {
     header {
         gap: 15%;
@@ -734,6 +739,24 @@ footer a {
     }
 
 
+    .home_paint {
+        flex-direction: initial;
+    }
+
+    .home_offer_content {
+        flex-direction: column;
+
+    }
+
+    .home_offer_content div {
+        width: 20rem;
+    }
+
+    .services {
+
+        margin: 10% 5% 10% 0%;
+
+    }
 }
 
 /* screen 800px */
