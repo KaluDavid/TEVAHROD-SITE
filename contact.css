@@ -1,17 +1,20 @@
 main {
-    padding: 15% 10% 20% 10%;
+    padding: 17% 0% 10% 5%;
 }
 
 .offer_content {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
-
+    white-space: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .offer_content div {
-    height: 45vh;
-    padding: 30px 30px 20px 30px;
+    height: 55vh;
+    width: 30%;
+    padding: 30px;
     gap: 20px;
 
 }
@@ -23,19 +26,131 @@ main {
     line-height: 25px;
 }
 
-
 #mail1 {
     font-size: 30px;
     text-align: center;
 
 }
 
-.mail {
-    white-space: wrap;
+.address small {
+    font-size: 16n px;
+}
+
+.email {
+    margin-top: 10%;
 }
 
 #mail {
     font-size: 34px;
     color: #0091dc;
     text-align: center;
+}
+
+
+/* media querry */
+/* screen 1280px */
+@media screen and (max-width:1280px) {
+
+    .offer_content div {
+        height: 45vh;
+    }
+
+}
+
+/* screen 1024px */
+@media screen and (max-width:1024px) {
+
+    .offer_content div {
+        height: 55vh;
+    }
+
+}
+
+
+/* screen 1000 */
+@media screen and (max-width:1000px) {
+    .offer_content {
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        padding: 17% 5% 10% 5%;
+    }
+
+    .offer_content div {
+        width: 35%;
+
+    }
+}
+
+/* screen 884 */
+@media screen and (max-width:884px) {
+
+    .offer_content div {
+        height: 30vh;
+    }
+
+    main {
+        padding: 20% 0% 10% 0%;
+    }
+}
+
+/* screen 800 */
+@media screen and (max-width:800px) {
+
+    .offer_content div {
+        height: 25vh;
+        width: 40%;
+    }
+
+    main {
+        padding: 20% 0% 10% 0%;
+    }
+}
+
+
+/* screen 768 */
+@media screen and (max-width:768px) {
+
+    .offer_content div {
+        height: 33vh;
+        width: 40%;
+    }
+
+    main {
+        padding: 27% 0% 10% 0%;
+    }
+}
+
+/* screen 480 */
+@media screen and (max-width:480px) {
+
+    .offer_content div {
+        height: 55vh;
+        width: 100%;
+    }
+
+    main {
+        padding: 35% 7% 30% 7%;
+    }
+
+    .offer_content {
+        gap: 50px;
+        flex-direction: column;
+
+    }
+
+}
+
+/* screen 428 */
+@media screen and (max-width:428px) {
+
+    .offer_content div {
+        height: 40vh;
+        width: 100%;
+    }
+
 }

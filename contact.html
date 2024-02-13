@@ -1,184 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TEVAHROD</title>
-   <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-  </head>
 
-  <body>
-    <!-- header -->
-    <header>
-      <!-- logo -->
-      <img src="contents/logo-removebg-preview.png" alt="" class="logo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEVAHROD</title>
+  <link rel="shortcut icon" href="contents/logo for teva.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
 
-      <!-- nav -->
-      <nav>
-        <div class="navMenu">
+<body>
+  <!-- header -->
+  <header>
+    <!-- logo -->
+    <img src="contents/logo-removebg-preview.png" alt="" class="logo">
+
+    <!-- nav -->
+    <nav>
+      <div class="navMenu">
+        <ol>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="services.html">
+            <li>Services</li>
+          </a>
+          <a href="">
+            <li class="nav">Contact</li>
+          </a>
+        </ol>
+      </div>
+
+      <div class="span" onclick="hamburgerMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="off-screen-menu" id="visible">
+    <ol>
+      <a href="index.html">
+        <li>Home</li>
+      </a>
+      <a href="about.html">
+        <li>About</li>
+      </a>
+      <a href="services.html">
+        <li>Services</li>
+      </a>
+      <a href="">
+        <li class="nav">Contact</li>
+      </a>
+    </ol>
+  </section>
+
+
+  <main>
+    <div class="offer_content">
+      <div>
+        <i class="fa fa-map-marker" id="mail"></i>
+        <p>
+          Office Address
+        </p>
+        <li>Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp Tran-ekulu, Enugu State.</li>
+      </div>
+
+      <div class="address">
+        <i class="fa fa-envelope" id="mail"></i>
+        <p>Email Address</p>
+       <small>
+        tevahrodwallcosmetic@gmail.com
+
+       </small>
+
+        <a href="mailto:tevahrodwallcosmetic@gmail.com" class="learn_more email"> <button>
+            Send us an Email
+          </button>
+        </a>
+      </div>
+
+      <div>
+        <i class="fa fa-phone" id="mail"></i>
+        <p>Phone Number</p>
+        <aside>
+          <li>
+            +2348100401361
+          </li>
+          <li>
+            +2349097776270
+          </li>
+        </aside>
+        <a href="https://rb.gy/vr3y2x" class="learn_more"> <button>
+            Message us on WhatsApp
+          </button>
+        </a>
+      </div>
+    </div>
+    <a href="#" class="straight">
+
+      <p class="arrow">
+        ↑
+      </p>
+    </a>
+  </main>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="align">
+      <!-- teva -->
+      <div class="teva">
+        <p>
+          TEVAHROD is a creative and innovative company aimed at maintaining
+          standards with verifiable product performance, that is acceptable
+          and recognized
+        </p>
+      </div>
+
+      <!-- quick links -->
+      <div class="footer_div">
+        <div class="quick link">
+          <h3>Quick Links</h3>
+          <div>
+            <ol>
+              <a href="">
+                <li>Home</li>
+              </a>
+              <a href="about.html">
+                <li>About</li>
+              </a>
+              <a href="services.html">
+                <li>Services</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
+            </ol>
+          </div>
+        </div>
+
+        <!-- our office -->
+        <div class="quick office">
+          <h3>Our Office</h3>
           <ol>
-            <a href="index.html">
-              <li>Home</li>
-            </a>
-            <a href="about.html">
-              <li>About</li>
-            </a>
-            <a href="services.html">
-              <li>Services</li>
-            </a>
-            <a href="">
-              <li class="nav">Contact</li>
-            </a>
+            <div>
+              <i class="fa fa-map-marker" id="office1"></i>
+              <li>
+                Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp
+                Tran-ekulu, Enugu State.
+              </li>
+            </div>
+            <div>
+              <i class="fa fa-phone" id="office1"></i>
+              <li>+2348100401361</li>
+            </div>
+            <div>
+              <i class="fa fa-envelope" id="office"></i>
+              <a href="mailto:tevahrodwallcosmetic@gmail.com">tevahrodwallcosmetic@gmail.com</a>
+            </div>
           </ol>
         </div>
-
-        <div class="span" onclick="hamburgerMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-    </header>
-
-    <section class="off-screen-menu" id="visible">
-      <ol>
-        <a href="index.html">
-          <li>Home</li>
-        </a>
-        <a href="about.html">
-          <li>About</li>
-        </a>
-        <a href="services.html">
-          <li>Services</li>
-        </a>
-        <a href="">
-          <li class="nav">Contact</li>
-        </a>
-      </ol>
-    </section>
-  
-
-    <main>
-        <div class="offer_content">
-            <div>
-                <i class="fa fa-map-marker" id="mail"></i>
-                <p>
-                    Office Address
-                </p>
-                <li>Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp Tran-ekulu, Enugu State.</li>
-            </div>
-
-            <div>
-                <i class="fa fa-envelope" id="mail"></i>
-                <p>Email Address</p>
-                <li class="mail">
-                    tevahrodwallcosmetic@gmail.com
-                </li>
-                <aside>
-                    <p></p>
-                </aside>
-                <a href="mailto:tevahrodwallcosmetic@gmail.com" class="learn_more"> <button>
-                        Send Us an Email
-                    </button>
-                </a>
-            </div>
-
-            <div>
-                <i class="fa fa-phone" id="mail"></i>
-                <p>Phone Number</p>
-                <aside>
-                    <li>
-                        +2348100401361
-                    </li>
-                    <li>
-                        +2349097776270
-                    </li>
-                </aside>
-                <a href="https://rb.gy/vr3y2x" class="learn_more"> <button>
-                        Message on WhatsApp
-                    </button>
-                </a>
-            </div>
-        </div>
-        <a href="#" class="straight">
-
-            <p class="arrow">
-                ↑
-            </p>
-        </a>
-    </main>
-
-
-    <!-- footer -->
-    <footer>
-
-        <div class="align">
-
-            <!-- teva -->
-            <div class="teva">
-           
-                <p>
-                    TEVAHROD is a creative and innovative company aimed at maintaining standards with verifiable product
-                    performance, that is acceptable and recognized
-                </p>
-            </div>
-
-            <!-- quick links -->
-            <div class="quick link">
-                <h3>Quick Links</h3>
-                <div>
-                    <ol>
-                        <a href="index.html">
-                            <li>Home</li>
-                        </a>
-                        <a href="about.html">
-                            <li>About</li>
-                        </a>
-                        <a href="services.html">
-                            <li>Services</li>
-                        </a>
-                        <a href="">
-                            <li>Contact</li>
-                        </a>
-
-                    </ol>
-                </div>
-            </div>
-
-            <!-- our office -->
-            <div class="quick office">
-                <h3>Our Office</h3>
-                <ol>
-                    <div>
-                        <i class="fa fa-map-marker" id="office1"></i>
-                        <li>Eloke Plaza, RCC Gate opp oshimili NEPA office, Onitsha exp Tran-ekulu, Enugu State.</li>
-                    </div>
-                    <div>
-                        <i class="fa fa-phone" id="office1"></i>
-                        <li>
-                            +2348100401361
-                        </li>
-                    </div>
-                    <div>
-                        <i class="fa fa-envelope" id="office"></i>
-                        <a href="mailto:tevahrodwallcosmetic@gmail.com">tevahrodwallcosmetic@gmail.com</a>
-                    </div>
-
-                </ol>
-            </div>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
