@@ -553,6 +553,18 @@ footer a {
     .hero-section div {
         padding-top: 14%;
     }
+
+    
+
+    .services section div img {
+        height: 60vh;
+    }
+    
+
+    .services section div video {
+        height: 60vh;
+    }
+    
 }
 
 /* screen 1195 */
@@ -724,6 +736,17 @@ footer a {
         width: 100%;
 
     }
+
+
+    /* services */
+    .services section div img {
+        height: 30vh;
+    }
+    
+
+    .services section div video {
+        height: 30vh;
+}
 }
 
 
@@ -752,11 +775,43 @@ footer a {
         width: 20rem;
     }
 
-    .services {
 
-        margin: 10% 5% 10% 0%;
+    /* sevrices */
+        /* services */
+        .services section div img {
+            height: 40vh;
+            width: 100%;
+            margin-right: 2rem;
+            border-radius: 15px !important;
 
+        }
+        
+    
+        .services section div video {
+            height: 40vh;
+            width: 120%;
+            border-radius: 15px;
     }
+
+    .services section {
+    align-items: center;
+        flex-direction: row;
+        justify-content: center;
+margin: 0;
+padding: 0;
+        gap: 3rem;  
+     
+    }
+
+    .services section div {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+        margin: 0;
+padding: 0;
+    }
+
 }
 
 /* screen 800px */
