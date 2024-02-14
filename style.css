@@ -1010,6 +1010,10 @@ padding: 0;
         align-items: center;
         justify-content: center;
     }
+    .services{
+        padding: 5%;
+        padding-top: 0%;
+    }
 
     .services br{
         display: none;
@@ -1025,6 +1029,7 @@ padding: 0;
 margin: 0;
 padding: 0;
 }
+
 
 .services section div img {
     height: 70vh;
@@ -1259,6 +1264,8 @@ padding: 0;
     .us {
 
         padding: 60px 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     /* services */
@@ -1361,6 +1368,17 @@ padding: 0;
 
     .us {
         gap: 30px;
+    }
+
+    /* services */
+    .services section div video {
+        height: 53.5vh;
+    }
+    
+    .services section div img {
+        height: 53.5vh;
+    
+
     }
 }
 
