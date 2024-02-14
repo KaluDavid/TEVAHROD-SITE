@@ -131,7 +131,7 @@ main {
     }
 
     main {
-        padding: 20% 0% 10% 0%;
+        padding: 20% 0% 5% 0%;
     }
 }
 
@@ -144,7 +144,7 @@ main {
     }
 
     main {
-        padding: 20% 0% 10% 0%;
+        padding: 20% 0% 5% 0%;
     }
 }
 
@@ -158,7 +158,7 @@ main {
     }
 
     main {
-        padding: 27% 0% 10% 0%;
+        padding: 27% 0% 5% 0%;
     }
 }
 
@@ -231,7 +231,7 @@ main {
 @media screen and (max-width:360px) {
 
     main {
-        padding: 45% 7% 30% 7%;
+        padding: 45% 7% 5% 7%;
     }
 
     .offer_content div {
@@ -243,7 +243,7 @@ main {
 @media screen and (max-width:365px) {
 
     main {
-        padding: 45% 7% 30% 7%;
+        padding: 45% 7% 5% 7%;
     }
 
     .offer_content div {
