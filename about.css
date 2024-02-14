@@ -204,6 +204,17 @@ main {
         margin-bottom: 62% !important;
     }
 
+    .history {
+        top: 25rem;
+        padding: 30px;
+    }
+
+
+    .about_us {
+        top: 70rem !important;
+        padding: 30px;
+    }
+
 }
 
 /* Screen 375 */
@@ -222,12 +233,12 @@ main {
 /* Screen 360 */
 @media screen and (max-width:360px) {
     main {
-        gap: 12rem;
-        margin-bottom: 113% !important;
+        gap: 13rem;
+        margin-bottom: 100% !important;
     }
 
     .about_us {
-        top: 75rem !important;
+        top: 68rem !important;
     }
 }
 
