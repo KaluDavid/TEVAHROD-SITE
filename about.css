@@ -3,11 +3,23 @@ main {
     overflow-x: hidden;
     width: 100%;
     padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 10%;
 }
 
 .hero-section {
-    background-image: url('contents/hero.jpg');
+    background-image: url('contents/brushes.jpg') !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    height: 85vh;
+    position: relative;
+    z-index: 3;
 }
+
 
 .hero-section h1 {
     align-items: flex-end;
@@ -17,13 +29,140 @@ main {
 
 /* history */
 .history {
-    top: 30rem;
+    top: 23rem;
     z-index: 3;
     left: 0;
 }
 
-/* about */
-.about {
-    margin-top: 15%;
-    margin-bottom: 10%;
+
+/* Media query */
+/* screen 1280 */
+@media screen and (max-width:1280px) {
+
+    /* history */
+    .history {
+        top: 27rem;
+    }
+
+
+}
+
+
+/* screen 1114 */
+@media screen and (max-width:1114px) {
+    main {
+        gap: 6rem;
+    }
+
+    /* history */
+    .history {
+        top: 22rem;
+    }
+}
+
+
+/* screen 944 */
+@media screen and (max-width:944px) {
+    main {
+        gap: 8rem;
+    }
+}
+
+
+/* screen 884 */
+@media screen and (max-width:884px) {
+    main {
+        gap: 6rem;
+
+    }
+
+    .hero-section div {
+        padding-top: 20% !important;
+    }
+
+
+    .hero-section {
+        height: 60vh !important;
+
+
+    }
+
+    /* history */
+    .history {
+        top: 30rem;
+    }
+}
+
+
+/* screen 768 */
+@media screen and (max-width:768px) {
+
+    main {
+        gap: 8rem;
+        margin-bottom: 5% !important;
+    }
+
+
+    .history {
+        top: 27rem !important;
+
+    }
+
+    .about {
+        margin: 10% 0% 20% 0% !important;
+    }
+
+}
+
+/*screen 428  */
+@media screen and (max-width:428px) {
+    main {
+        gap: 8rem;
+    }
+
+    .hero-section div {
+        padding-top: 30% !important;
+    }
+
+    .history {
+        top: 23rem !important;
+
+    }
+
+    main {
+        gap: 10rem;
+        margin-bottom: 40% !important;
+    }
+
+
+    .about_us {
+        top: 59rem;
+        padding: 30px;
+    }
+}
+/*  */
+@media screen and (max-width:428px) {
+    main {
+        gap: 8rem;
+    }
+
+    .hero-section div {
+        padding-top: 30% !important;
+    }
+
+    .history {
+        top: 23rem !important;
+
+    }
+
+    main {
+        gap: 10rem;
+        margin-bottom: 40% !important;
+    }
+
+
+    .about_us {
+        top: 59rem;
+        padding: 30px;
+    }
 }
