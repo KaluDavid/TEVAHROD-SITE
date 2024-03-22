@@ -1,271 +1,231 @@
 main {
-    padding: 17% 0% 10% 5%;
+  padding: 14% 0% 9% 5%;
 }
 
 .offer_content {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    white-space: wrap;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  white-space: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .offer_content div {
-    height: 55vh;
-    width: 30%;
-    padding: 30px;
-    gap: 20px;
-    text-align: center;
-    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 50px;
-    transition: transform 0.8s ease-in-out;
+  height: 55vh;
+  width: 30%;
+  padding: 30px;
+  gap: 20px;
+  text-align: center;
+  box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  transition: transform 0.8s ease-in-out;
 }
 
 .offer_content div:hover {
-    transform: scale(1.09);
-    opacity: 1;
+  transform: scale(1.09);
+  opacity: 1;
 }
 
 .offer_content div li {
-    font-weight: 500;
-    list-style: none;
-    text-align: left;
-    line-height: 25px;
+  font-weight: 500;
+  list-style: none;
+  text-align: left;
+  line-height: 25px;
 }
 
 #mail1 {
-    font-size: 30px;
-    text-align: center;
-
+  font-size: 30px;
+  text-align: center;
 }
 
 .address small {
-    font-size: 16n px;
+  font-size: 16n px;
 }
 
 .email {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 #mail {
-    font-size: 34px;
-    color: #0091dc;
-    text-align: center;
+  font-size: 34px;
+  color: #0091dc;
+  text-align: center;
 }
 
 .offer_content div p {
-    font-size: 22px;
-    font-weight: 900;
-    font-family: Roboto;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: Roboto;
 }
-
-
-
-
-
 
 /* media query */
 /* screen 1280px */
-@media screen and (max-width:1280px) {
-
-    .offer_content div {
-        height: 45vh;
-    }
-
+@media screen and (max-width: 1280px) {
+  .offer_content div {
+    height: 45vh;
+  }
 }
 /*  */
 
 /* screen 1131 */
-@media screen and (max-width:1131px) {
-    .offer_content div {
-        height: 65vh;
-    }
+@media screen and (max-width: 1131px) {
+  .offer_content div {
+    height: 65vh;
+  }
 }
 
 /* screen 1114 */
-@media screen and (max-width:1114px) {
-    .offer_content div {
-        height: 57vh;
-    }
+@media screen and (max-width: 1114px) {
+  .offer_content div {
+    height: 57vh;
+  }
 }
-
 
 /* screen 1024px */
-@media screen and (max-width:1024px) {
-
-    .offer_content div {
-        height: 55vh;
-    }
-
+@media screen and (max-width: 1024px) {
+  .offer_content div {
+    height: 55vh;
+  }
 }
 
-
 /* screen 1000 */
-@media screen and (max-width:1000px) {
-    .offer_content {
-        flex-wrap: wrap;
-        gap: 50px;
-        align-items: center;
-        justify-content: center;
-    }
+@media screen and (max-width: 1000px) {
+  .offer_content {
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
 
-    main {
-        padding: 17% 5% 10% 5%;
-    }
+  main {
+    padding: 17% 5% 10% 5%;
+  }
 
-    .offer_content div {
-        width: 35%;
-
-    }
+  .offer_content div {
+    width: 35%;
+  }
 }
 
 /* screen 884 */
-@media screen and (max-width:884px) {
-
-    .offer_content div {
-        height: 30vh;
-    }
-
-    main {
-        padding: 20% 0% 5% 0%;
-    }
+@media screen and (max-width: 884px) {
+  .offer_content div {
+    padding-bottom: 33%;
+    height: 0;
+    width: 40%;
+  }
+  main {
+    padding: 20% 0% 5% 0%;
+  }
 }
 
 /* screen 800 */
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
+  .offer_content div {
+    padding-bottom: 35%;
+  }
 
-    .offer_content div {
-        height: 25vh;
-        width: 40%;
-    }
-
-    main {
-        padding: 20% 0% 5% 0%;
-    }
+  main {
+    padding: 20% 0% 10% 0%;
+  }
 }
 
-
 /* screen 768 */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
+  main {
+    padding: 25% 0% 10% 0%;
+  }
+  .offer_content div {
 
-    .offer_content div {
-        height: 33vh;
-        width: 40%;
-    }
+    padding-bottom: 35%;
+  }
+}
 
-    main {
-        padding: 27% 0% 5% 0%;
-    }
+/* screen 745 */
+@media screen and (max-width: 745px) {
+  .offer_content div {
+    padding-bottom: 40%;
+    width: 40%;
+  }
+
+  main {
+    padding: 25% 0% 10% 0%;
+  }
 }
 
 /* screen 480 */
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
+  .offer_content div {
+    padding-bottom: 75%;
+    width: 100%;
+  }
 
-    .offer_content div {
-        height: 55vh;
-        width: 100%;
-    }
+  main {
+    padding: 35% 7% 30% 7%;
+  }
 
-    main {
-        padding: 35% 7% 30% 7%;
-    }
-
-    .offer_content {
-        gap: 50px;
-        flex-direction: column;
-
-    }
-
-}
-
-/* screen 428 */
-@media screen and (max-width:428px) {
-
-    .offer_content div {
-        height: 35vh;
-        width: 100%;
-    }
-
+  .offer_content {
+    gap: 50px;
+    flex-direction: column;
+  }
 }
 
 /* screen 414 */
-@media screen and (max-width:414px) {
+@media screen and (max-width: 414px) {
+  .offer_content div {
+    padding-top: 50px;
+    padding-bottom: 80%;
+  }
 
-    .offer_content div {
-        padding-top: 50px;
-    }
-
-    .offer_content div {
-        height: 40vh;
-    }
-
-
+  main {
+    padding: 35% 7% 15% 7%;
+  }
 }
 
 /* screen 390 */
-@media screen and (max-width:390px) {
-
-    .offer_content div {
-        padding-top: 40px;
-    }
-
+@media screen and (max-width: 390px) {
+  .offer_content div {
+    padding-top: 40px;
+  }
 }
 
 /* screen 375 */
-@media screen and (max-width:375px) {
-
-    .offer_content div {
-        padding-top: 40px;
-    }
-
-    .offer_content div {
-        height: 44vh;
-    }
+@media screen and (max-width: 375px) {
+  .offer_content div {
+    padding-top: 40px;
+    padding-bottom: 85%;
+  }
 }
 
 /* screen 360 */
-@media screen and (max-width:360px) {
-
-    main {
-        padding: 45% 7% 5% 7%;
-    }
-
-    .offer_content div {
-        height: 30vh;
-    }
-}
-
-/* screen 365 */
-@media screen and (max-width:365px) {
-
-    main {
-        padding: 45% 7% 5% 7%;
-    }
-
-    .offer_content div {
-
-        padding-top: 44px;
-
-        height: 45vh;
-    }
+@media screen and (max-width: 360px) {
+  .offer_content div {
+    padding-top: 40px;
+    padding-bottom: 90%;
+  }
+  main {
+    padding-bottom: 20% !important;
+  }
 }
 
 /* screen 320 */
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
+  main {
+    padding: 45% 7% 15% 7%;
+  }
 
-    .offer_content div {
-        padding-top: 35px;
-    }
+  .offer_content div {
+    padding-top: 35px;
+  }
 
-    .offer_content div {
-        height: 60vh;
-    }
+  .offer_content div {
+    height: 60vh;
+  }
 
-    .message button {
-        padding: 10px;
-    }
+  .message button {
+    padding: 10px;
+  }
 }
